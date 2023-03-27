@@ -6,7 +6,7 @@ function allClear() {
 }
 
 function clear() {
-    display.value = display.value.toString().slice(0, -1);
+    display.value = display.value.slice(0, -1);
 }
 
 function show(n) {
